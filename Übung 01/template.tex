@@ -1,0 +1,170 @@
+\documentclass[a4paper,11pt]{scrartcl}
+\usepackage[a4paper, left=2cm, right=4.5cm, top=3.5cm, bottom=2cm]{geometry} % kleinere Ränder
+
+%Paket für Header in Koma-Klassen (scrartcl, scrrprt, scrbook, scrlttr2)
+\usepackage[headsepline]{scrlayer-scrpage}
+% Header groß genug für 3 Zeilen machen
+\setlength{\headheight}{3\baselineskip}
+
+
+% Default Header löschen
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+
+% nicht kursiv gedruckte header
+\setkomafont{pagehead}{\sffamily\upshape}
+
+% Links im Dokuement sowie \url schön machen
+\usepackage[colorlinks,pdfpagelabels,pdfstartview = FitH, bookmarksopen = true,bookmarksnumbered = true, linkcolor = black, plainpages = false, hypertexnames = false, citecolor = black]{hyperref}
+
+% Umlaute in der Datei erlauben, auf deutsch umstellen
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+
+% Mathesymbole und Ähnliches
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{microtype}
+\newcommand{\NN}{{\mathbb N}}
+\newcommand{\RR}{{\mathbb R}}
+\newcommand{\QQ}{{\mathbb Q}}
+\newcommand{\ZZ}{{\mathbb{Z}}}
+
+% Komplexitätsklassen
+\newcommand{\pc}{\ensuremath{{\sf P}}}
+\newcommand{\np}{\ensuremath{{\sf NP}}}
+\newcommand{\npc}{\ensuremath{{\sf NPC}}}
+\newcommand{\pspace}{\ensuremath{{\sf PSPACE}}}
+\newcommand{\exptime}{\ensuremath{{\sf EXPTIME}}}
+\newcommand{\CClassNP}{\textup{NP}\xspace}
+\newcommand{\CClassP}{\textup{P}\xspace}
+
+% Weitere pakete
+\usepackage{multicol}
+\usepackage{booktabs}
+
+% Abbildungen
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc}
+
+% Meistens ist \varphi schöner als \phi, genauso bei \theta
+\renewcommand{\phi}{\varphi}
+\renewcommand{\theta}{\vartheta}
+
+% Aufzählungen anpassen (alternativ: \arabic, \alph)
+\renewcommand{\labelenumi}{(\roman{enumi})}
+
+% rwth colors
+% colors: blue violet purple carmine red magenta orange yellow grass cyan gold silver
+\definecolor{rwth-blue}{cmyk}{1,.5,0,0}\colorlet{rwth-lblue}{rwth-blue!50}\colorlet{rwth-llblue}{rwth-blue!25}
+\definecolor{rwth-violet}{cmyk}{.6,.6,0,0}\colorlet{rwth-lviolet}{rwth-violet!50}\colorlet{rwth-llviolet}{rwth-violet!25}
+\definecolor{rwth-purple}{cmyk}{.7,1,.35,.15}\colorlet{rwth-lpurple}{rwth-purple!50}\colorlet{rwth-llpurple}{rwth-purple!25}
+\definecolor{rwth-carmine}{cmyk}{.25,1,.7,.2}\colorlet{rwth-lcarmine}{rwth-carmine!50}\colorlet{rwth-llcarmine}{rwth-carmine!25}
+\definecolor{rwth-red}{cmyk}{.15,1,1,0}\colorlet{rwth-lred}{rwth-red!50}\colorlet{rwth-llred}{rwth-red!25}
+\definecolor{rwth-magenta}{cmyk}{0,1,.25,0}\colorlet{rwth-lmagenta}{rwth-magenta!50}\colorlet{rwth-llmagenta}{rwth-magenta!25}
+\definecolor{rwth-orange}{cmyk}{0,.4,1,0}\colorlet{rwth-lorange}{rwth-orange!50}\colorlet{rwth-llorange}{rwth-orange!25}
+\definecolor{rwth-yellow}{cmyk}{0,0,1,0}\colorlet{rwth-lyellow}{rwth-yellow!50}\colorlet{rwth-llyellow}{rwth-yellow!25}
+\definecolor{rwth-grass}{cmyk}{.35,0,1,0}\colorlet{rwth-lgrass}{rwth-grass!50}\colorlet{rwth-llgrass}{rwth-grass!25}
+\definecolor{rwth-green}{cmyk}{.7,0,1,0}\colorlet{rwth-lgreen}{rwth-green!50}\colorlet{rwth-llgreen}{rwth-green!25}
+\definecolor{rwth-cyan}{cmyk}{1,0,.4,0}\colorlet{rwth-lcyan}{rwth-cyan!50}\colorlet{rwth-llcyan}{rwth-cyan!25}
+\definecolor{rwth-teal}{cmyk}{1,.3,.5,.3}\colorlet{rwth-lteal}{rwth-teal!50}\colorlet{rwth-llteal}{rwth-teal!25}
+\definecolor{rwth-gold}{cmyk}{.35,.46,.7,.35}
+\definecolor{rwth-silver}{cmyk}{.39,.31,.32,.14}
+
+
+
+% Header i-> inner (bei einseitig links), c -> center, o -> Outer (bei einseitg rechts)
+\ihead{SWT WS 2020/21 \\ Gruppe 010 \\\today\\
+		Laura Koch, XXXXXX\\
+		Marc Ludevid, XXXXXX\\
+		Til Mohr, XXXXXX}
+\chead{\Large Aufgabenblatt 1}
+\ohead{Andrés Montoya, XXXXXX \\
+	   Dobri Panayotov, XXXXXX \\
+	   Fabian Grob, XXXXXX \\
+	   Lennart Holzenkamp, XXXXXX\\
+	   Simon Michau, XXXXXX\\
+	   Tim Luther, XXXXXX}
+	
+\cfoot*{\pagemark} % Seitenzahlen unten
+
+\begin{document}
+		
+	\section*{Aufgabe 1.1}
+	\subsection*{a)}
+	\begin{table}[h!]
+		\begin{tabular}{l|l|l|l|l|l}
+		 \textbf{Tätigkeit} 										&A &E &I &T &W \\ 
+		 \hline
+		 Benutzer der Software schulen								&  &  &  &x &  \\
+		 Qualitätssicherung des Pflichtenheftes prüfen				&  &  &  &  &  \\
+		 Gesetzliche Rahmenbedingungen prüfen						&x &  &  &  &  \\
+		 Konzept und Prototyp einer Benutzeroberfläche erstellen	&  &x &  &  &  \\
+		 Entwicklerteam zusammenstellen								&x &  &  &  &  \\
+		 Code eines Programmmoduls debuggen							&  &  &x &x &x \\
+ 		 Zwei Subsysteme verbinden und testen						&  &  &  &  &  \\
+ 		 Termine und Kosten des Projektes planen					&x &  &  &  &  \\
+		 Datenstrukturen festlegen									&  &x &x &  &  \\
+		 Vorhandene Altlasten des Kunden analysieren				&x &  &  &  &  \\
+		 Schnittstellen von Programmmodulen definieren				&  &  &x &  &  \\
+		 Leistung der Entwickler bewerten und belohnen				&  &  &  &  &  \\
+		 Software an neue Umgebung anpassen							&  &  &  &  &x \\
+		 Kunden eine Rechnung stellen								&x &x &x &x &x \\
+		 Test-Eingabedaten für ein Programmmodul ermitteln			&  &  &  &x &  \\ 
+		 Strukturmodell des gesamten Softwaresystems entwerfen		&  &x &  &x &  \\ 
+		 Dokumentation des Projektablaufes bewerten und archivieren	&  &  &  &x &x \\ 
+		 Nach bereits vorhandenen, wiederverwendbaren 				&x &x &  &  &  \\ 
+		 	Software-Bibliotheken suchen	&  &  &  &  &  \\ 	
+		 Performance-Prognose des Softwaresystems erstellen			&  &x &x &  &  \\ 
+		 Programmcode kommentieren									&  &  &x &x &x \\ 
+		\end{tabular}
+	\end{table}
+	*A=Analyse; E=Entwurf; I=Implementierung; T=Test/Integration; W=Wartung\\
+	\\\textbf{Begründungen:}\\
+	Benutzer der Software schulen: \textcolor{gray}{}\\
+	Qualitätssicherung des Pflichtenheftes prüfen\\
+	Gesetzliche Rahmenbedingungen prüfen: \textcolor{gray}{Der gesetzliche Rahmen sollte geklärt sein, bevor das Produkt entwickelt wird.}\\
+	Konzept und Prototyp einer Benutzeroberfläche erstellen: \textcolor{gray}{Konzept und Prototyp müssen erstellt werden, nachdem in der Analyse bestimmt wurde welche Anforderungen erfüllt werden sollen, aber bevor die Implementierung startet, damit die Entwickler wissen was zu tun ist.} \\
+	Entwicklerteam zusammenstellen: \textcolor{gray}{Das Entwicklerteam sollte an das Projekt angepasst werden, bevor dieses startet, aber nachdem geklärt wurde welche Qualifikationen erforderlich sind. Einzelne Teammitglieder können während der Entwicklung noch angepasst werden.}\\
+	Code eines Programmmoduls debuggen: \textcolor{gray}{Kann immer passieren, wenn mit konkretem Code gearbeitet wird, vorausgesetzt ein Programm existiert bereits.}\\			
+ 	Zwei Subsysteme verbinden und testen\\			
+ 	Termine und Kosten des Projektes planen: \textcolor{gray}{Sollte erledigt sein bevor das Projekt startet.}\\		
+	Datenstrukturen festlegen: \textcolor{gray}{Sollte im Entwurf festgelegt werden, damit die Entwickler sie implementieren können. Kann während der Implementierung noch angepasst werden.}\\				
+	Vorhandene Altlasten des Kunden analysieren\\			
+	Schnittstellen von Programmmodulen definieren\\			
+	Leistung der Entwickler bewerten und belohnen\\			
+	Software an neue Umgebung anpassen\\		
+	Kunden eine Rechnung stellen\\				
+	Test-Eingabedaten für ein Programmmodul ermitteln\\	
+	Strukturmodell des gesamten Softwaresystems entwerfen\\
+	Dokumentation des Projektablaufes bewerten und archivieren\\	
+	Nach bereits vorhandenen, wiederverwendbaren Software-Bibliotheken suchen\\
+	Performance-Prognose des Softwaresystems erstellen\\
+	Programmcode kommentieren\\	
+	
+	\subsection*{b)}
+	\subsection*{c)}
+	
+	\section*{Aufgabe 1.2}
+	
+	\section*{Aufgabe 1.3}
+	\textbf{funktionale Anforderungen:}
+	\begin{itemize}
+		\item Bedienbarkeit der Ladestationen
+		\item Berechnung der benötigten Lademenge
+		\item Äußerung des Ladewunsches
+		\item Prüfung ob Fahrzeug angeschlossen ist
+		\item Bezahlfunktion
+		\item optional Schnellladen, wenn Station eine Schnellladestation ist
+	\end{itemize}
+	\textbf{nicht-funktionale Anforderungen}
+	\begin{itemize}
+		\item Bedienung soll über komfortables Interface erfolgen
+		\item Überprüfung des Fahrzeugs durch Übertragung von Fahrzeugdaten
+		\item Bezahlung nur über Carmpere App oder Smartphone
+	\end{itemize}
+	
+	
+\end{document}
+
