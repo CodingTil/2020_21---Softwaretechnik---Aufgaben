@@ -1,5 +1,5 @@
 \documentclass[a4paper,11pt]{scrartcl}
-\usepackage[a4paper, left=2cm, right=4.5cm, top=3.5cm, bottom=2cm]{geometry} % kleinere Ränder
+\usepackage[a4paper, left=2cm, right=2cm, top=3.5cm, bottom=2cm]{geometry} % kleinere Ränder
 
 %Paket für Header in Koma-Klassen (scrartcl, scrrprt, scrbook, scrlttr2)
 \usepackage[headsepline]{scrlayer-scrpage}
@@ -76,16 +76,16 @@
 
 % Header i-> inner (bei einseitig links), c -> center, o -> Outer (bei einseitg rechts)
 \ihead{SWT WS 2020/21 \\ Gruppe 010 \\\today\\
-		Laura Koch, XXXXXX\\
-		Marc Ludevid, XXXXXX\\
-		Til Mohr, XXXXXX}
+		Laura Koch, 406310\\
+		Marc Ludevid, 405401\\
+		Til Mohr, 405959}
 \chead{\Large Aufgabenblatt 1}
-\ohead{Andrés Montoya, XXXXXX \\
-	   Dobri Panayotov, XXXXXX \\
-	   Fabian Grob, XXXXXX \\
-	   Lennart Holzenkamp, XXXXXX\\
-	   Simon Michau, XXXXXX\\
-	   Tim Luther, XXXXXX}
+\ohead{Andrés Montoya, 405409 \\
+	   Dobromir I. Panayotov, 407763 \\
+	   Fabian Grob, 409195 \\
+	   Lennart Holzenkamp, 407761\\
+	   Simon Michau, 406133\\
+	   Tim Luther, 410886}
 	
 \cfoot*{\pagemark} % Seitenzahlen unten
 
@@ -97,74 +97,152 @@
 		\begin{tabular}{l|l|l|l|l|l}
 		 \textbf{Tätigkeit} 										&A &E &I &T &W \\ 
 		 \hline
-		 Benutzer der Software schulen								&  &  &  &x &  \\
-		 Qualitätssicherung des Pflichtenheftes prüfen				&  &  &  &  &  \\
+		 Benutzer der Software schulen								&  &  &  &x &x \\
+		 Qualitätssicherung des Pflichtenheftes prüfen				&  &  &  &x &  \\
 		 Gesetzliche Rahmenbedingungen prüfen						&x &  &  &  &  \\
 		 Konzept und Prototyp einer Benutzeroberfläche erstellen	&  &x &  &  &  \\
-		 Entwicklerteam zusammenstellen								&x &  &  &  &  \\
+		 Entwicklerteam zusammenstellen								&x &x &  &  &  \\
 		 Code eines Programmmoduls debuggen							&  &  &x &x &x \\
- 		 Zwei Subsysteme verbinden und testen						&  &  &  &  &  \\
+ 		 Zwei Subsysteme verbinden und testen						&  &  &x &x &  \\
  		 Termine und Kosten des Projektes planen					&x &  &  &  &  \\
 		 Datenstrukturen festlegen									&  &x &x &  &  \\
 		 Vorhandene Altlasten des Kunden analysieren				&x &  &  &  &  \\
-		 Schnittstellen von Programmmodulen definieren				&  &  &x &  &  \\
+		 Schnittstellen von Programmmodulen definieren				&  &x &  &  &  \\
 		 Leistung der Entwickler bewerten und belohnen				&  &  &  &  &  \\
-		 Software an neue Umgebung anpassen							&  &  &  &  &x \\
-		 Kunden eine Rechnung stellen								&x &x &x &x &x \\
+		 Software an neue Umgebung anpassen							&  &  &  &x &x \\
+		 Kunden eine Rechnung stellen								&  &  &  &  &  \\
 		 Test-Eingabedaten für ein Programmmodul ermitteln			&  &  &  &x &  \\ 
-		 Strukturmodell des gesamten Softwaresystems entwerfen		&  &x &  &x &  \\ 
-		 Dokumentation des Projektablaufes bewerten und archivieren	&  &  &  &x &x \\ 
-		 Nach bereits vorhandenen, wiederverwendbaren 				&x &x &  &  &  \\ 
-		 	Software-Bibliotheken suchen	&  &  &  &  &  \\ 	
+		 Strukturmodell des gesamten Softwaresystems entwerfen		&  &x &  &  &  \\ 
+		 Dokumentation des Projektablaufs bewerten und archivieren	&  &  &  &  &  \\ 
+		 Nach bereits vorhandenen, wiederverwendbaren... 			&x &x &x &  &  \\ 
+		 \hspace*{10mm} ...Software-Bibliotheken suchen	            &  &  &  &  &  \\ 	
 		 Performance-Prognose des Softwaresystems erstellen			&  &x &x &  &  \\ 
-		 Programmcode kommentieren									&  &  &x &x &x \\ 
+		 Programmcode kommentieren									&  &  &x &  &  \\ 
 		\end{tabular}
 	\end{table}
 	*A=Analyse; E=Entwurf; I=Implementierung; T=Test/Integration; W=Wartung\\
 	\\\textbf{Begründungen:}\\
-	Benutzer der Software schulen: \textcolor{gray}{}\\
-	Qualitätssicherung des Pflichtenheftes prüfen\\
+	Benutzer der Software schulen: \textcolor{gray}{Gehört zu Integration und Wartung, da ggf. nach jeder Implementierung neuer Funktionalitäten Schulungen erforderlich sein können.}\\
+	Qualitätssicherung des Pflichtenheftes prüfen: \textcolor{gray}{Zum Test der Software, ob alles auch wie gewünscht funktioniert.}\\
 	Gesetzliche Rahmenbedingungen prüfen: \textcolor{gray}{Der gesetzliche Rahmen sollte geklärt sein, bevor das Produkt entwickelt wird.}\\
 	Konzept und Prototyp einer Benutzeroberfläche erstellen: \textcolor{gray}{Konzept und Prototyp müssen erstellt werden, nachdem in der Analyse bestimmt wurde welche Anforderungen erfüllt werden sollen, aber bevor die Implementierung startet, damit die Entwickler wissen was zu tun ist.} \\
 	Entwicklerteam zusammenstellen: \textcolor{gray}{Das Entwicklerteam sollte an das Projekt angepasst werden, bevor dieses startet, aber nachdem geklärt wurde welche Qualifikationen erforderlich sind. Einzelne Teammitglieder können während der Entwicklung noch angepasst werden.}\\
 	Code eines Programmmoduls debuggen: \textcolor{gray}{Kann immer passieren, wenn mit konkretem Code gearbeitet wird, vorausgesetzt ein Programm existiert bereits.}\\			
- 	Zwei Subsysteme verbinden und testen\\			
+ 	Zwei Subsysteme verbinden und testen: \textcolor{gray}{Verbindung in Implementation \& Integration, Testen in Test. Abhängig, von wo die Systeme kommen und ob man sie auch selber entwickelt.}\\			
  	Termine und Kosten des Projektes planen: \textcolor{gray}{Sollte erledigt sein bevor das Projekt startet.}\\		
 	Datenstrukturen festlegen: \textcolor{gray}{Sollte im Entwurf festgelegt werden, damit die Entwickler sie implementieren können. Kann während der Implementierung noch angepasst werden.}\\				
-	Vorhandene Altlasten des Kunden analysieren\\			
-	Schnittstellen von Programmmodulen definieren\\			
-	Leistung der Entwickler bewerten und belohnen\\			
-	Software an neue Umgebung anpassen\\		
-	Kunden eine Rechnung stellen\\				
-	Test-Eingabedaten für ein Programmmodul ermitteln\\	
-	Strukturmodell des gesamten Softwaresystems entwerfen\\
-	Dokumentation des Projektablaufes bewerten und archivieren\\	
-	Nach bereits vorhandenen, wiederverwendbaren Software-Bibliotheken suchen\\
-	Performance-Prognose des Softwaresystems erstellen\\
-	Programmcode kommentieren\\	
+	Vorhandene Altlasten des Kunden analysieren: \textcolor{gray}{Wichtig zum Entwurf, sollte also in Analyse geschehen.}\\			
+	Schnittstellen von Programmmodulen definieren: \textcolor{gray}{Wenn die Implementation in Modulen erfolgt, sollte vorher klar geregelt sein, wie die Module später miteinander arbeiten. Daher sollte das im Entwurf geschehen.}\\			
+	Leistung der Entwickler bewerten und belohnen: \textcolor{gray}{Gehört nicht wirklich zur Softwareentwicklung.}\\
+	Software an neue Umgebung anpassen: \textcolor{gray}{Wartung der Software und Integration in neue Umgebung.}\\		
+	Kunden eine Rechnung stellen: \textcolor{gray}{Gehört nicht wirklich zur Softwareentwicklung, könnte aber durchaus in jedem Schritt geschehen.}\\				
+	Test-Eingabedaten für ein Programmmodul ermitteln: \textcolor{gray}{Können theoretisch immer ermittelt werden, aber am meisten während den Tests selber.}\\	
+	Strukturmodell des gesamten Softwaresystems entwerfen: \textcolor{gray}{Gehört klar zu dem Entwurf, sollte auf jeden Fall vor der Implementierung geschehen, und kann erst nach der vollständigen Analyse entworfen werden.}\\
+	Dokumentation des Projektablaufes bewerten und archivieren: \textcolor{gray}{Da es sich um den Ablauf handelt, kann dies nur für die Entwickler selbst interessant sein, ist daher außerhalb dieses Entwicklungsmodells welches nur für ein einzelnenes Projekt ist.}\\	
+	Nach bereits vorhandenen, wiederverwendbaren Software-Bibliotheken suchen: \textcolor{gray}{Kann so früh beginnen wie in der späten Analyse bis hin zu der Implementation, um die Software zu entwerfen und auch implementieren.}\\
+	Performance-Prognose des Softwaresystems erstellen: \textcolor{gray}{Sollte früh geschehen, damit man die Implementation auch darauf abrichten kann.}\\
+	Programmcode kommentieren: \textcolor{gray}{In jeder Phase, in der man Code implementiert.}\\
+	
+	\newpage	
 	
 	\subsection*{b)}
-	\subsection*{c)}
+	\begin{table}[h!]
+		\begin{tabular}{l|l|l|l|l|l|l|l|l}
+		 \textbf{Tätigkeit} 										&A &GE&FE&I &MT&IT&ST&AT \\ 
+		 \hline
+		 Benutzer der Software schulen								&  &  &  &  &  &  &  &  \\
+		 Qualitätssicherung des Pflichtenheftes prüfen				&  &  &  &  &  &  &  &x \\
+		 Gesetzliche Rahmenbedingungen prüfen						&x &  &  &  &  &  &  &  \\
+		 Konzept und Prototyp einer Benutzeroberfläche erstellen	&  &x &x &  &  &  &  &  \\
+		 Entwicklerteam zusammenstellen								&x &x &  &  &  &  &  &  \\
+		 Code eines Programmmoduls debuggen							&  &  &  &x &x &x &x &x \\
+ 		 Zwei Subsysteme verbinden und testen						&  &  &  &  &  &x &x &  \\
+ 		 Termine und Kosten des Projektes planen					&x &  &  &  &  &  &  &  \\
+		 Datenstrukturen festlegen									&  &x &x &x &  &  &  &  \\
+		 Vorhandene Altlasten des Kunden analysieren				&x &  &  &  &  &  &  &  \\
+		 Schnittstellen von Programmmodulen definieren				&  &x &x &  &  &  &  &  \\
+		 Leistung der Entwickler bewerten und belohnen				&  &  &  &  &  &  &  &  \\
+		 Software an neue Umgebung anpassen							&  &  &  &x &x &x &x &x \\
+		 Kunden eine Rechnung stellen								&  &  &  &  &  &  &  &  \\
+		 Test-Eingabedaten für ein Programmmodul ermitteln			&  &  &  &  &x &  &  &  \\ 
+		 Strukturmodell des gesamten Softwaresystems entwerfen		&  &x &x &  &  &  &  &  \\
+		 Dokumentation des Projektablaufes bewerten und archivieren	&  &  &  &  &  &  &  &  \\
+		 Nach bereits vorhandenen, wiederverwendbaren...			&x &x &x &x &  &  &  &  \\
+		 \hspace*{10mm} ...Software-Bibliotheken suchen             &  &  &  &  &  &  &  &  \\ 	
+		 Performance-Prognose des Softwaresystems erstellen			&  &  &x &x &  &  &  &  \\
+		 Programmcode kommentieren									&  &  &  &x &  &  &  &  \\ 
+		\end{tabular}
+	\end{table}
+	*A=Analyse; GE=Grobentwurf; FE=Feinentwurf; I=Implementation; MT=Modultest; IT=Integrationstest; ST=Systemtest; AT=Abnahmetest\\
+	\\\textbf{Begründungen:}\\
+	Benutzer der Software schulen: \textcolor{gray}{Keinen Platz im V-Modell}\\
+	Qualitätssicherung des Pflichtenheftes prüfen: \textcolor{gray}{Das Pflichtenheft legt fest welche Pflichten zum Ende eines Projekts erfüllt sein müssen. Genau diese werden im Abnahmetest geprüft.}\\
+	Gesetzliche Rahmenbedingungen prüfen: \textcolor{gray}{Der gesetzliche Rahmen sollte geklärt sein, bevor das Projekt begonnen wird.}\\
+	Konzept und Prototyp einer Benutzeroberfläche erstellen: \textcolor{gray}{Konzept und Prototyp müssen erstellt werden, nachdem in der Analyse bestimmt wurde welche Anforderungen erfüllt werden sollen, aber bevor die Implementierung startet, damit die Entwickler wissen was zu tun ist.} \\
+	Entwicklerteam zusammenstellen: \textcolor{gray}{Das Entwicklerteam sollte an das Projekt angepasst werden, bevor dieses startet, aber nachdem geklärt wurde welche Qualifikationen erforderlich sind. Einzelne Teammitglieder können während der Entwicklung noch angepasst werden.}\\
+	Code eines Programmmoduls debuggen: \textcolor{gray}{Sollte nach dem Modultest nicht mehr passieren, kann aber trotzdem immer mal wieder vorkommen falls ein konkreter Testfall erst in einer späteren Testphase auftaucht und vorher nicht bekannt war.}\\			
+ 	Zwei Subsysteme verbinden und testen: \textcolor{gray}{Sollte dann geschehen, wenn Module integriert werden und das System getestet wird.}\\			
+ 	Termine und Kosten des Projektes planen: \textcolor{gray}{Sollte erledigt sein bevor das Projekt startet.}\\
+	Datenstrukturen festlegen: \textcolor{gray}{Sollte im Entwurf festgelegt werden, damit die Entwickler sie implementieren können. Kann während der Implementierung noch angepasst werden.}\\				
+	Vorhandene Altlasten des Kunden analysieren: \textcolor{gray}{Wichtig zum Entwurf, sollte also in Analyse geschehen.}\\			
+	Schnittstellen von Programmmodulen definieren: \textcolor{gray}{Wenn die Implementation in Modulen erfolgt, sollte vorher klar geregelt sein, wie die Module später miteinander arbeiten. Daher sollte das im Entwurf geschehen.}\\			
+	Leistung der Entwickler bewerten und belohnen: \textcolor{gray}{Gehört nicht wirklich zur Softwareentwicklung.}\\
+	Software an neue Umgebung anpassen: \textcolor{gray}{Implementation nötiger Änderungen und testen in der neuen Umgebung.}\\		
+	Kunden eine Rechnung stellen: \textcolor{gray}{Gehört zwar nicht wirklich zur Softwareentwicklung, könnte aber durchaus in jedem Schritt geschehen.}\\	
+	Test-Eingabedaten für ein Programmmodul ermitteln: \textcolor{gray}{trivial.}\\
+	Strukturmodell des gesamten Softwaresystems entwerfen: \textcolor{gray}{Gehört klar zu dem Entwurf, sollte auf jeden Fall vor der Implementierung geschehen, und kann erst nach der vollständigen Analyse entworfen werden.}\\
+	Dokumentation des Projektablaufes bewerten und archivieren: \textcolor{gray}{Nirgendwo wirklich wichtig, es sei denn angefragt. Dann zu T+W.}\\	
+	Nach bereits vorhandenen, wiederverwendbaren Software-Bibliotheken suchen: \textcolor{gray}{Kann so früh beginnen wie in der späten Analyse bis hin zu der Implementation, um die Software zu entwerfen und auch implementieren.}\\
+	Performance-Prognose des Softwaresystems erstellen: \textcolor{gray}{Sollte früh geschehen, damit man die Implementation auch darauf abrichten kann.}\\
+	Programmcode kommentieren: \textcolor{gray}{Während man Code programmiert sollte man dies tun. Falls man im Modultest Anmerkungen ergänzen will, dann kann man dies auch dann noch tun.}\\		
 	
+	\subsection*{c)}
+	Eine starre Zuordnung der Tätigkeiten zu den Grundaktivitäten ist problematisch, weil es sinnvoller ist, einige Tätigkeiten zu unterschiedlichen Zeiten zu machen. Die Grundaktivitäten sollen auch nur einen groben Plan zur Softwareentwicklung geben, dieser ist also nicht in allen Fälle der effizienteste und effektivste Plan. Außerdem können in der Praxis dynamisch Probleme auftreten, die eine zeitnahe Abänderung des geplanten Vorgehens zwingend erforderlich machen. Zum Beispiel kann sich die gesetzliche Lage während der Implementierung ändern, so dass eventuell der Entwurf überarbeitet werden muss.
+	
+\newpage
+
 	\section*{Aufgabe 1.2}
+	
+	\begin{table}[h!]
+		\begin{tabular}{c|c|c|c|c}
+		 \textbf{Rolle\textbackslash Aktivität} & Sprint Planning & Sprint Review & Sprint-Retrospektive & Daily Scrum \\
+		 \hline
+		 Product Owner		&x &x &x &x \\
+		 Scrum Master		&x &x &x &x \\
+		 Entwicklungsteam	&x &x &x &x \\
+		\end{tabular}
+	\end{table}
+	
+	\begin{table}[h!]
+		\begin{tabular}{c|c|c|c}
+		 \textbf{Rolle\textbackslash Artefakt} & Product Backlog & Sprint Backlog & Produktinkrement \\
+		 \hline
+		 Product Owner		&x &  &x \\
+		 Scrum Master		&  &x &x \\
+		 Entwicklungsteam	&x &x &  \\
+		\end{tabular}
+	\end{table}
 	
 	\section*{Aufgabe 1.3}
 	\textbf{funktionale Anforderungen:}
 	\begin{itemize}
 		\item Bedienbarkeit der Ladestationen
+		\item Prüfung ob Fahrzeug angeschlossen ist
+		\item Funktionalitäten beider Arten von Ladestation gleich
 		\item Berechnung der benötigten Lademenge
 		\item Äußerung des Ladewunsches
-		\item Prüfung ob Fahrzeug angeschlossen ist
 		\item Bezahlfunktion
 		\item optional Schnellladen, wenn Station eine Schnellladestation ist
 	\end{itemize}
 	\textbf{nicht-funktionale Anforderungen}
 	\begin{itemize}
-		\item Bedienung soll über komfortables Interface erfolgen
+		\item Bedienung über komfortables Interface
 		\item Überprüfung des Fahrzeugs durch Übertragung von Fahrzeugdaten
 		\item Bezahlung nur über Carmpere App oder Smartphone
+		\item Ausfallquote $< 1\%$
+		\item Auto und Ladestationen interagieren miteinander
+		\item Bezahlung verschlüsselt
 	\end{itemize}
 	
 	
 \end{document}
-
