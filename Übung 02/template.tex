@@ -46,7 +46,6 @@
 
 % Abbildungen
 \usepackage{tikz}
-\usetikzlibrary{arrows,calc}
 
 % Meistens ist \varphi schöner als \phi, genauso bei \theta
 \renewcommand{\phi}{\varphi}
@@ -72,7 +71,20 @@
 \definecolor{rwth-gold}{cmyk}{.35,.46,.7,.35}
 \definecolor{rwth-silver}{cmyk}{.39,.31,.32,.14}
 
-
+\usetikzlibrary{
+  arrows,
+  calc,
+  shapes,
+  arrows,
+  shapes.misc,
+  shapes.arrows,
+  chains,
+  matrix,
+  positioning,
+  scopes,
+  decorations.pathmorphing,
+  shadows
+}
 
 % Header i-> inner (bei einseitig links), c -> center, o -> Outer (bei einseitg rechts)
 \ihead{SWT WS 2020/21 \\ Gruppe 010 \\\today\\
@@ -90,9 +102,68 @@
 \cfoot*{\pagemark} % Seitenzahlen unten
 
 \begin{document}
+
+\tikzset{
+  start/.style={circle, fill},
+  end/.style={circle, draw, fill = white},
+  decision/.style={diamond, black, draw},
+  action/.style={rectangle, draw, rounded corners},
+  pin/.style={draw,thick,rectangle,minimum height = 0.6em,minimum width=0.6em, node distance=-1pt},
+  split/.style={diamond, black, fill}
+}
+
+	Gibt leider kein Latex package für Aktivitätsdiagramme, deswegen nicht 100\% korrekt:
+	\begin{itemize}
+	\item Ausgefüllter Diamand = Aufteilung
+	\end{itemize}
 		
-	\section*{Aufgabe X.X}
+	\section*{Aufgabe 2.1}
+
+	\begin{tikzpicture}[auto, thick, node distance=1.5cm, >=triangle 45]
+	\draw
+		node [start](start){}
+		
+		node [decision, right=of start] (dec1) {}		
+		node [decision, below=of dec1] (dec2) {}
+		node [action, above right=of dec1] (calc) {Elec. Calc}
+		node [action, right=of calc] (test1) {Test 1}
+		node [pin, below=of calc] (pin1) {}
+		node [pin, below=of test1] (pin2) {}
+		node [split, right=of test1] (split1) {}
+		node [action, above right=of split1] (prep) {Prepare Charge}
+		node [action, below right=of split1] (req) {Request PayMeth}
+		node [split, above right=of req] (split2) {}
+		node [action, below right=of req] (test2) {Test 2}
+		node [decision, below left=of test2] (dec3) {}
+		node [action, above left=of dec3] (charge) {Charge}
+		node [action, below left=of dec3] (err) {Error}
+		node [decision, above left=of err] (dec4) {}
+		node [end, left=of dec2](end){}
+	;
 	
-	\subsection*{x)}
+	\draw[->] (start) -- (dec1);
+	\draw[->] (dec1) -- node[left]{[Not connected]} ++(0, -1.45cm) -- (dec2);
+	\draw[->] (dec1) -- node[above, pos=1pt]{[connected]} ++(0, 1.45cm) -- (calc);
+	\draw[->] (calc) -- (test1);
+	\draw[->] (pin1) -- node{} ++(0,-0.4cm) -- node{} ++(3.15cm,0) -- (pin2);
+	\draw[->] (test1) -- (split1);
+	\draw[->] (split1) -- (prep);
+	\draw[->] (split1) -- (req);
+	\draw[->] (prep) -- (split2);
+	\draw[->] (req) -- (split2);
+	\draw[->] (split2) -- (test2);
+	\draw[->] (test2) -- (dec3);
+	\draw[->] (dec3) -- node[above, pos=1pt]{[No error]} ++(0,1.45cm) -- (charge);
+	\draw[->] (dec3) -- node[right]{[error]} ++(0,-1.45cm) -- (err);
+	\draw[->] (charge) -- (dec4);
+	\draw[->] (err) -- (dec4);
+	\draw[->] (dec4) -- (dec2);
+	\draw[->] (dec2) -- (end);
 	
+	\end{tikzpicture}
+	
+	
+	
+	\section*{Aufgabe 2.1}	
+		
 \end{document}
