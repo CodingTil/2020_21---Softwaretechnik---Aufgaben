@@ -71,6 +71,8 @@
 \definecolor{rwth-gold}{cmyk}{.35,.46,.7,.35}
 \definecolor{rwth-silver}{cmyk}{.39,.31,.32,.14}
 
+\usepackage{tikz-uml}
+
 \usetikzlibrary{
   arrows,
   calc,
@@ -162,8 +164,35 @@
 	
 	\end{tikzpicture}
 	
-	
-	
-	\section*{Aufgabe 2.1}	
+	\section*{Aufgabe 2.2}	
+	\begin{tikzpicture}
+        \begin{umlsystem}[x=3] {}
+			\umlusecase[name=upgrade, x=-1] {Uprgrade}
+			\umlusecase[name=payment, x=4, width = 2.5cm] {$\ll \text{abstract} \gg$ \\ Payment}
+			\umlusecase[name=credit, x=10, y=-1.5] {Credit Card}
+			\umlusecase[name=bank, x=10] {Bank}
+			\umlusecase[name=play, x=-1, y=-3, width = 1cm] {Play Ads}
+			\umlusecase[name=ads, x=-1, y=-3, x=6] {Ads}
+			\umlusecase[name=profile, x=-1, y=-6, width = 1.5cm] {Change Profile}
+		\end{umlsystem}
+		\node [above] at (current bounding box.north) {SwimmyFish};
+		
+		\umlactor[x=-1] {Player}
+        \umlactor[y=-3, x=-1] {Premiumplayer}
+        \umlactor[y=-3, x=16] {WaterGames}
+        
+        \umlinherit{Premiumplayer}{Player}
+        \draw [tikzuml dependency style] (upgrade) -- node[above] {$\ll \text{include} \gg$} (payment);
+        \draw [tikzuml dependency style] (bank) -- node[above,text width=2.7cm] {$\ll \text{extend} \gg$ [Not Premium]} (payment);
+        \draw [tikzuml dependency style] (credit) -- node[below,text width=2.7cm] {$\ll \text{extend} \gg$ [Not Premium]} (payment);
+        \draw [tikzuml dependency style] (ads) -- node[above,text width=3.2cm] {$\ll \text{extend} \gg$ (Ads) [Not Premium]} (play);
+        
+        \umlassoc{Player}{upgrade}
+        \umlassoc{Player}{play}
+        \umlassoc{WaterGames}{ads}
+        \umlassoc{Premiumplayer}{profile}
+        
+        \umlnote[x=7, y=-7]{play}{Ads als Extension Point}
+	\end{tikzpicture}
 		
 \end{document}
