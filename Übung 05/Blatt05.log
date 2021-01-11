@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  3 JAN 2021 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  11 JAN 2021 17:59
 entering extended mode
 **./Blatt05.tex
 (Blatt05.tex
@@ -1093,22 +1093,31 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-pdfTeX warning: pdflatex (file ./src/5.1.a_Geometry.pdf): PDF inclusion: found 
-PDF version <1.7>, but at most version <1.5> allowed
-<src/5.1.a_Geometry.pdf, id=6, 790.955pt x 312.16624pt>
-File: src/5.1.a_Geometry.pdf Graphic file (type pdf)
-<use src/5.1.a_Geometry.pdf>
-Package pdftex.def Info: src/5.1.a_Geometry.pdf  used on input line 101.
-(pdftex.def)             Requested size: 474.57666pt x 187.3012pt.
+pdfTeX warning: pdflatex (file ./src/5.1_a.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<src/5.1_a.pdf, id=6, 796.9775pt x 313.17pt>
+File: src/5.1_a.pdf Graphic file (type pdf)
+<use src/5.1_a.pdf>
+Package pdftex.def Info: src/5.1_a.pdf  used on input line 101.
+(pdftex.def)             Requested size: 478.19019pt x 187.90344pt.
 
 
-pdfTeX warning: pdflatex (file ./src/5.1.a_GUI.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-<src/5.1.a_GUI.pdf, id=7, 676.5275pt x 325.215pt>
-File: src/5.1.a_GUI.pdf Graphic file (type pdf)
-<use src/5.1.a_GUI.pdf>
-Package pdftex.def Info: src/5.1.a_GUI.pdf  used on input line 102.
-(pdftex.def)             Requested size: 405.91962pt x 195.1305pt.
+pdfTeX warning: pdflatex (file ./src/5.1_a2.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+<src/5.1_a2.pdf, id=7, 673.51625pt x 325.215pt>
+File: src/5.1_a2.pdf Graphic file (type pdf)
+<use src/5.1_a2.pdf>
+Package pdftex.def Info: src/5.1_a2.pdf  used on input line 102.
+(pdftex.def)             Requested size: 404.11287pt x 195.1305pt.
+
+
+pdfTeX warning: pdflatex (file ./src/5.1_b.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<src/5.1_b.pdf, id=8, 822.07124pt x 939.51pt>
+File: src/5.1_b.pdf Graphic file (type pdf)
+<use src/5.1_b.pdf>
+Package pdftex.def Info: src/5.1_b.pdf  used on input line 106.
+(pdftex.def)             Requested size: 411.0346pt x 469.75385pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 107
 .
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
@@ -1126,19 +1135,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ("C:\Program Files\MiKTeX 2.9\tex/latex/microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-
-pdfTeX warning: pdflatex (file ./src/5.2.pdf): PDF inclusion: found PDF version
- <1.7>, but at most version <1.5> allowed
-<src/5.2.pdf, id=8, 757.83125pt x 370.38374pt>
-File: src/5.2.pdf Graphic file (type pdf)
-<use src/5.2.pdf>
-Package pdftex.def Info: src/5.2.pdf  used on input line 113.
-(pdftex.def)             Requested size: 454.70226pt x 222.23195pt.
 
 Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                At least 81.60002pt needed,
@@ -1148,57 +1144,71 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=81.60002pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
-15.
+07.
 
 
 Overfull \vbox (40.8pt too high) has occurred while \output is active []
 
  [1{C:/Users/Til Mohr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <./src/5.1.a_Geometry.pdf> <./src/5.1.a_GUI.pdf>]
+ <./src/5.1_a.pdf> <./src/5.1_a2.pdf>]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+pdfTeX warning: pdflatex (file ./src/5.2.pdf): PDF inclusion: found PDF version
+ <1.7>, but at most version <1.5> allowed
+<src/5.2.pdf, id=33, 757.83125pt x 370.38374pt>
+File: src/5.2.pdf Graphic file (type pdf)
+<use src/5.2.pdf>
+Package pdftex.def Info: src/5.2.pdf  used on input line 117.
+(pdftex.def)             Requested size: 454.70226pt x 222.23195pt.
+[2 <./src/5.1_b.pdf>]
 
 pdfTeX warning: pdflatex (file ./src/5.3.pdf): PDF inclusion: found PDF version
  <1.7>, but at most version <1.5> allowed
-<src/5.3.pdf, id=38, 891.33pt x 532.99126pt>
+<src/5.3.pdf, id=51, 891.33pt x 532.99126pt>
 File: src/5.3.pdf Graphic file (type pdf)
 <use src/5.3.pdf>
-Package pdftex.def Info: src/5.3.pdf  used on input line 115.
+Package pdftex.def Info: src/5.3.pdf  used on input line 119.
 (pdftex.def)             Requested size: 490.23302pt x 293.1461pt.
 
-Overfull \hbox (6.53615pt too wide) in paragraph at lines 115--116
+Overfull \hbox (6.53615pt too wide) in paragraph at lines 119--120
 [] 
  []
 
-[2 <./src/5.2.pdf> <./src/5.3.pdf>]
+[3 <./src/5.2.pdf> <./src/5.3.pdf>]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     118.
+(LaTeX3)     122.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     118.
+(LaTeX3)     122.
 
  (Blatt05.aux)
 Package rerunfilecheck Info: File `Blatt05.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25389 strings out of 479799
- 512075 string characters out of 2877687
- 1001912 words of memory out of 3000000
- 41908 multiletter control sequences out of 15000+200000
+ 25398 strings out of 479799
+ 512140 string characters out of 2877687
+ 1000912 words of memory out of 3000000
+ 41913 multiletter control sequences out of 15000+200000
  542779 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,111p,10697b,503s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 108i,20n,111p,10697b,692s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Blatt05.pdf (2 pages, 123382 bytes).
+Output written on Blatt05.pdf (3 pages, 139033 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 11809 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 11814 words of extra memory for PDF output out of 12000 (max. 10000000)
 
