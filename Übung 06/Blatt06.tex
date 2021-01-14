@@ -152,12 +152,12 @@ morestring=[b]"
 \begin{document}
 		
 	\section*{Aufgabe 6.1} 
-	\subsection*{a)}
+	\subsection*{a) Java}
 	    	\begin{lstlisting}[language=Java]
 public class GcdCalculator {
 
     public static void main(String[] args) {
-        //standard tests
+        //Tests
         GcdCalculator test = new GcdCalculator();
         System.out.println(test.gcd(12,18));
         System.out.println(test.gcd(16,20));
@@ -165,6 +165,7 @@ public class GcdCalculator {
         System.out.println(test.gcd(105,26));
     }
 
+    //Code
     public int gcd(int a, int b) {
         if (a == 0) { return Math.abs(b); }
         if (b == 0) { return Math.abs(a); }
@@ -178,7 +179,7 @@ public class GcdCalculator {
 }
             \end{lstlisting}
 	
-	\subsection*{b)}
+	\subsection*{b) C}
         \begin{lstlisting}[language=C]
 #include <stdio.h>
 #include <stdlib.h>
@@ -186,6 +187,7 @@ public class GcdCalculator {
 int gcd(int a, int b);
 
 int main() {
+    //Tests
     printf("%d\n", gcd(12, 18));
     printf("%d\n", gcd(16, 20));
     printf("%d\n", gcd(120, 900));
@@ -194,6 +196,7 @@ int main() {
     return 0;
 }
 
+//Code
 int gcd(int a, int b) {
     if (a == 0) { return abs(b); }
     if (b == 0) { return abs(a); }
@@ -207,8 +210,9 @@ int gcd(int a, int b) {
         \end{lstlisting}
     
     \newpage
-    \subsection*{c)}
+    \subsection*{c) Python}
         \begin{lstlisting}[language=Python]
+#Code
 def gcd(a, b):
     if a==0: 
         return abs(b)
@@ -220,14 +224,16 @@ def gcd(a, b):
         b = h
     return abs(a)
 
+#Tests
 print(gcd(12,18))
 print(gcd(16,20))
 print(gcd(120,900))
 print(gcd(105,26))
         \end{lstlisting}
 
-    \subsection*{d)}
+    \subsection*{d) JavaScript}
         \begin{lstlisting}[language=JavaScript]
+//Code
 function gcd(a, b) {
   if (a==0) {
     return Math.abs(b);
@@ -243,6 +249,7 @@ function gcd(a, b) {
   return Math.abs(a)
 }
 
+//Tests
 console.log(gcd(12,18))
 console.log(gcd(16,20))
 console.log(gcd(120,900))
@@ -250,55 +257,60 @@ console.log(gcd(105,26))
         \end{lstlisting}
 
     \newpage
-    \subsection*{e)}
+    \subsection*{e) Go}
         \begin{lstlisting}[language=Go]
 package main
 
 import "fmt"
 
 func main() {
-	fmt.Println(gcd(12,18))
-	fmt.Println(gcd(16,20))
-	fmt.Println(gcd(120,900))
-	fmt.Println(gcd(105,26))
+    //Tests
+    fmt.Println(gcd(12,18))
+    fmt.Println(gcd(16,20))
+    fmt.Println(gcd(120,900))
+    fmt.Println(gcd(105,26))
 }
 
+//Code
 func gcd(a, b int) int {
-  if a==0 {
-    return Abs(b)
-  }
-  if b==0 {
-    return Abs(a)
-  }
-  for {
-    if b==0 {
-      h := a % b
-      a = b
-      b = h
+    if a==0 {
+        return Abs(b)
     }
-  }
-  return Abs(a)
+    if b==0 {
+        return Abs(a)
+    }
+    for {
+        if b==0 {
+            h := a % b
+            a = b
+            b = h
+        }
+    }
+    return Abs(a)
 }
 
+//Auxiliary function
 func Abs(x int) int {
-	if x < 0 {
-		return -x
-	}
-	return x
+    if x < 0 {
+	    return -x
+    }
+    return x
 }
         \end{lstlisting}
         
-    \subsection*{f)}
+    \subsection*{f) Kotlin}
         \begin{lstlisting}[language=Kotlin]
 import kotlin.math.abs 
 
 fun main() {
+    //Tests
     println("${gcd(12,18)}")
     println("${gcd(16,20)}")
     println("${gcd(120,900)}")
     println("${gcd(105,26)}")
 }
 
+//Code
 fun gcd(a: Int, b: Int): Int {
     var v1 = a
     var v2 = b
