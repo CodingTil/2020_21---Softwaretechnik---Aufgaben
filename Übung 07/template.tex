@@ -116,11 +116,12 @@
 
 		\subsection*{c)}
 \begin{lstlisting} [language=Java]
-int taskC() {
-	while(0) {
-		return 1;
+public static boolean taskC( int a ) {
+	if( 1 == 0) {
+		return false;
+	} else {
+		return true;
 	}
-	return 0;
 }
 \end{lstlisting}
 			Zeile 3 ist zwar vom Startknoten erreichbar, wird jedoch nie ausgeführt, da keine Eingabe existiert,
@@ -129,12 +130,18 @@ int taskC() {
 			\begin{enumerate}
 				\item[1)] Wahr, denn für $u = v$ besucht jeder Knoten auf dem Pfad vom Startknoten zu sich 
 							automatisch sich selbst.
-				\item[2)] Falsch. Gegenbeispiel: $u$ dominiert $v$, aber $v$ dominiert nicht $u$ \\
+				\item[2)] Falsch. Gegenbeispiel: Knoten $u$ dominiert $v$, aber $v$ dominiert nicht $u$. Denn es
+							existiert ein Pfad vom Startknoten über $v$ nach $w$. \\
 							\includegraphics[scale=0.7]{Aufgabe 7.1 d) 2).png} 
 				\item[3)]  Wahr. Wenn Knoten $u$ nur über $v$ erreichbar ist, und $v$ nur über $w$, dann ist
 							$u$ auch automatisch nur über $w$ erreichbar.\\
-							Somit dominiert $u$ den Knoten $v$.  
+							Somit ist Transitivität gegeben und Knoten $u$ dominiert den Knoten $v$.  
 			\end{enumerate}
 		
+			Man kann eine vollständig bekannte Dominanzrelation dazu verwenden, um den Kontrollflussgraphen
+			bezüglich den Anweisungsüberdeckungstests zu minimieren. Folglich kann es sein, dass eine geringere
+			Eingabemenge benötigt, um einen vollständigen Anweisungsüberdeckungstest durchzuführen. Dies kann den
+			Aufwand für das Testen enorm reduzieren und wertvolle Zeit und Geld in der Softwareentwicklung einsparen,
+			obwohl man keine Qualität des Testes verliert.
 		
 \end{document}
