@@ -1,0 +1,1214 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.3.3)  31 JAN 2021 13:10
+entering extended mode
+**./Blatt08.tex
+(Blatt08.tex
+LaTeX2e <2019-10-01> patch level 3
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrartc
+l.cls"
+Document Class: scrartcl 2019/10/12 v3.27 KOMA-Script document class (article)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrkbas
+e.sty"
+Package: scrkbase 2019/10/12 v3.27 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrbase
+.sty"
+Package: scrbase 2019/10/12 v3.27 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty
+"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlfil
+e.sty"
+Package: scrlfile 2019/10/12 v3.27 KOMA-Script package (loading files)
+)))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\tocbasi
+c.sty"
+Package: tocbasic 2019/10/12 v3.27 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip41
+\scr@dte@tocline@numbox=\box27
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 137.
+Package scrartcl Info: You've used standard option `11pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=11pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=11pt' there
+(scrartcl)             instead of `11pt', too.
+Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
+ine 2208.
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrsize
+11pt.clo"
+File: scrsize11pt.clo 2019/10/12 v3.27 KOMA-Script font size class option (11pt
+)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\typeare
+a.sty"
+Package: typearea 2019/10/12 v3.27 KOMA-Script package (type area)
+\ta@bcor=\skip42
+\ta@div=\count80
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+\ta@hblk=\skip43
+\ta@vblk=\skip44
+\ta@temp=\skip45
+\footheight=\skip46
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1716.
+)
+\c@part=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\scr@dte@section@maxnumwidth=\skip47
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 4702.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 4702.
+\scr@dte@part@maxnumwidth=\skip48
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 4710.
+\scr@dte@subsection@maxnumwidth=\skip49
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 4720.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 4720.
+\scr@dte@subsubsection@maxnumwidth=\skip50
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 4730.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 4730.
+\scr@dte@paragraph@maxnumwidth=\skip51
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 4740.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 4740.
+\scr@dte@subparagraph@maxnumwidth=\skip52
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 4750.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 4750.
+\abovecaptionskip=\skip53
+\belowcaptionskip=\skip54
+\c@pti@nb@sid@b@x=\box28
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 5969.
+\scr@dte@figure@maxnumwidth=\skip55
+\c@figure=\count87
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 5981.
+\scr@dte@table@maxnumwidth=\skip56
+\c@table=\count88
+Class scrartcl Info: Redefining `\numberline' on input line 6145.
+\bibindent=\dimen102
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.s
+ty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifpdf.sty"
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.s
+ty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifxetex.sty
+"
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.c
+fg"))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlaye
+r-scrpage.sty"
+Package: scrlayer-scrpage 2019/10/12 v3.27 KOMA-Script package (end user interf
+ace for scrlayer)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlaye
+r.sty"
+Package: scrlayer 2019/10/12 v3.27 KOMA-Script package (defining layers and pag
+e styles)
+Package scrlayer Info: Using already defined \footheight
+(scrlayer)             hoping, that this is a length and
+(scrlayer)             not only a macro on input line 109.
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 208
+3.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1244.
+Package scrlayer-scrpage Info: deactivating warning for font element
+(scrlayer-scrpage)             `pagefoot' on input line 1271.
+)
+Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.s
+ty"
+Package: hyperref 2019/11/10 v7.00c Hypertext links for LaTeX
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.s
+ty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexcm
+ds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infware
+rr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetke
+ys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekeys\kvde
+finekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape\pdfesca
+pe.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hycolor.sty
+"
+Package: hycolor 2019/12/15 v1.9 Color options for hyperref/bookmark (HO)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\xcolor-patc
+h.sty"
+Package: xcolor-patch 2019/12/15 xcolor patch
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\hopatch.st
+y"
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+)))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro\letltxm
+acro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\auxhook.sty
+"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoptions
+.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen111
+\Hy@linkcounter=\count92
+\Hy@pagecounter=\count93
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def
+"
+File: pd1enc.def 2019/11/10 v7.00c Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intcalc\intcalc.s
+ty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\etexcmds
+.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count94
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.c
+fg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4409.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4409.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4409.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4409
+.
+Package hyperref Info: Option `plainpages' set `false' on input line 4409.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 4409.
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4788.
+\c@Hy@tempcnt=\count95
+ ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5147.
+\XeTeXLinkMargin=\dimen112
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bitset.sty
+"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcalc\bigint
+calc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count96
+\Field@Width=\dimen113
+\Fld@charsize=\dimen114
+Package hyperref Info: Hyper figures OFF on input line 6418.
+Package hyperref Info: Link nesting OFF on input line 6423.
+Package hyperref Info: Hyper index ON on input line 6426.
+Package hyperref Info: backreferencing OFF on input line 6433.
+Package hyperref Info: Link coloring ON on input line 6436.
+Package hyperref Info: Link coloring with OCG OFF on input line 6443.
+Package hyperref Info: PDF/A mode OFF on input line 6448.
+LaTeX Info: Redefining \ref on input line 6488.
+LaTeX Info: Redefining \pageref on input line 6492.
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\atbegshi
+.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count97
+\c@Item=\count98
+\c@Hfootnote=\count99
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.de
+f"
+File: hpdftex.def 2019/11/10 v7.00c Hyperref driver for pdfTeX
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\atveryend
+.sty"
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count100
+\c@bookmark@seq@number=\count101
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilecheck\reru
+nfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecounter\uni
+quecounter.sty"
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip57
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty
+"
+Package: babel 2019/12/08 3.37 The Babel package
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def"
+File: switch.def 2019/12/08 3.37 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ngerma
+n.ldf"
+Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthogra
+phy)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ngerma
+nb.ldf"
+Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogr
+aphy)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/12/08 3.37 Babel common definitions
+\babel@savecnt=\count102
+\U@D=\dimen115
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.de
+f")
+\bbl@dirlevel=\count103
+)
+Package babel Info: Making " an active character on input line 121.
+)))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty
+"
+Package: amsmath 2019/11/16 v2.17d AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty
+"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen116
+))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen117
+) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.st
+y"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count104
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count105
+\leftroot@=\count106
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count107
+\DOTSCASE@=\count108
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen118
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count109
+\c@MaxMatrixCols=\count110
+\dotsspace@=\muskip11
+\c@parentequation=\count111
+\dspbrk@lvl=\count112
+\tag@help=\toks19
+\row@=\count113
+\column@=\count114
+\maxfields@=\count115
+\andhelp@=\toks20
+\eqnshift@=\dimen119
+\alignsep@=\dimen120
+\tagshift@=\dimen121
+\tagwidth@=\dimen122
+\totwidth@=\dimen123
+\lineht@=\dimen124
+\@envbody=\toks21
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2858.
+LaTeX Info: Redefining \] on input line 2859.
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mathtools
+.sty"
+Package: mathtools 2019/07/31 v1.22 mathematical typesetting tools
+ ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count116
+\calc@Bcount=\count117
+\calc@Adimen=\dimen125
+\calc@Bdimen=\dimen126
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count118
+\calc@Cskip=\skip63
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mhsetup.s
+ty"
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count119
+\l_MT_multwidth_dim=\dimen127
+\origjot=\skip64
+\l_MT_shortvdotswithinadjustabove_dim=\dimen128
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen129
+\l_MT_above_intertext_sep=\dimen130
+\l_MT_below_intertext_sep=\dimen131
+\l_MT_above_shortintertext_sep=\dimen132
+\l_MT_below_shortintertext_sep=\dimen133
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.st
+y"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.s
+ty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtype
+.sty"
+Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
+\MT@toks=\toks23
+\MT@count=\count120
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen134
+LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
+\MT@listname@count=\count121
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtype
+-pdftex.def"
+File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 914.
+LaTeX Info: Redefining \lslig on input line 914.
+\MT@outer@space=\skip65
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtype
+.cfg"
+File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
+))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.sty"
+Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
+\c@tracingmulticols=\count122
+\mult@box=\box31
+\multicol@leftmargin=\dimen135
+\c@unbalance=\count123
+\c@collectmore=\count124
+\doublecol@number=\count125
+\multicoltolerance=\count126
+\multicolpretolerance=\count127
+\full@width=\dimen136
+\page@free=\dimen137
+\premulticols=\dimen138
+\postmulticols=\dimen139
+\multicolsep=\skip66
+\multicolbaselineskip=\skip67
+\partial@page=\box32
+\last@line=\box33
+\maxbalancingoverflow=\dimen140
+\mult@rightbox=\box34
+\mult@grightbox=\box35
+\mult@gfirstbox=\box36
+\mult@firstbox=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\c@minrows=\count128
+\c@columnbadness=\count129
+\c@finalcolumnbadness=\count130
+\last@try=\dimen141
+\multicolovershoot=\dimen142
+\multicolundershoot=\dimen143
+\mult@nat@firstbox=\box55
+\colbreak@box=\box56
+\mc@col@check@num=\count131
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.s
+ty"
+Package: booktabs 2019/10/08 v1.6180339 publication quality tables
+\heavyrulewidth=\dimen144
+\lightrulewidth=\dimen145
+\cmidrulewidth=\dimen146
+\belowrulesep=\dimen147
+\belowbottomsep=\dimen148
+\aboverulesep=\dimen149
+\abovetopsep=\dimen150
+\cmidrulesep=\dimen151
+\cmidrulekern=\dimen152
+\defaultaddspace=\dimen153
+\@cmidla=\count132
+\@cmidlb=\count133
+\@aboverulesep=\dimen154
+\@belowrulesep=\dimen155
+\@thisruleclass=\count134
+\@lastruleclass=\count135
+\@thisrulewidth=\dimen156
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.
+cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex
+.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.s
+ty"
+\lst@mode=\count136
+\lst@gtempboxa=\box57
+\lst@token=\toks24
+\lst@length=\count137
+\lst@currlwidth=\dimen157
+\lst@column=\count138
+\lst@pos=\count139
+\lst@lostspace=\dimen158
+\lst@width=\dimen159
+\lst@newlines=\count140
+\lst@lineno=\count141
+\lst@maxwidth=\dimen160
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.st
+y"
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count142
+\lst@skipnumbers=\count143
+\lst@framebox=\box58
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.c
+fg"
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\t
+ikz.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.
+sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrc
+s.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+util-common.tex"
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen161
+\pgfutil@tempdimb=\dimen162
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+util-common-lists.tex"))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+util-latex.def"
+\pgfutil@abb=\box59
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+rcs.code.tex"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision.
+tex")
+Package: pgfrcs 2019/12/19 v3.1.5 (3.1.5)
+))
+Package: pgf 2019/12/19 v3.1.5 (3.1.5)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgfc
+ore.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.s
+ty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.s
+ty"
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphi
+cs.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen163
+\Gin@req@width=\dimen164
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pgf
+sys.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsys.code.tex"
+Package: pgfsys 2019/12/19 v3.1.5 (3.1.5)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+keys.code.tex"
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+keysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen165
+\pgf@y=\dimen166
+\pgf@xa=\dimen167
+\pgf@ya=\dimen168
+\pgf@xb=\dimen169
+\pgf@yb=\dimen170
+\pgf@xc=\dimen171
+\pgf@yc=\dimen172
+\pgf@xd=\dimen173
+\pgf@yd=\dimen174
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count144
+\c@pgf@countb=\count145
+\c@pgf@countc=\count146
+\c@pgf@countd=\count147
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count148
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gf.cfg"
+File: pgf.cfg 2019/12/19 v3.1.5 (3.1.5)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsys-pdftex.def"
+File: pgfsys-pdftex.def 2019/12/19 v3.1.5 (3.1.5)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2019/12/19 v3.1.5 (3.1.5)
+)))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2019/12/19 v3.1.5 (3.1.5)
+\pgfsyssoftpath@smallbuffer@items=\count149
+\pgfsyssoftpath@bigbuffer@items=\count150
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2019/12/19 v3.1.5 (3.1.5)
+))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcore.code.tex"
+Package: pgfcore 2019/12/19 v3.1.5 (3.1.5)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
+code.tex"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathc
+alc.code.tex"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathu
+til.code.tex")
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathp
+arser.code.tex"
+\pgfmath@dimen=\dimen175
+\pgfmath@count=\count151
+\pgfmath@box=\box60
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.code.tex"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.basic.code.tex")
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.trigonometric.code.tex")
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.random.code.tex")
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.comparison.code.tex")
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.base.code.tex")
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.round.code.tex")
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.misc.code.tex")
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.integerarithmetics.code.tex")))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+loat.code.tex"
+\c@pgfmathroundto@lastzeros=\count152
+))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.c
+ode.tex")
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2019/12/19 v3.1.5 (3.1.5)
+\pgf@picminx=\dimen176
+\pgf@picmaxx=\dimen177
+\pgf@picminy=\dimen178
+\pgf@picmaxy=\dimen179
+\pgf@pathminx=\dimen180
+\pgf@pathmaxx=\dimen181
+\pgf@pathminy=\dimen182
+\pgf@pathmaxy=\dimen183
+\pgf@xx=\dimen184
+\pgf@xy=\dimen185
+\pgf@yx=\dimen186
+\pgf@yy=\dimen187
+\pgf@zx=\dimen188
+\pgf@zy=\dimen189
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2019/12/19 v3.1.5 (3.1.5)
+\pgf@path@lastx=\dimen190
+\pgf@path@lasty=\dimen191
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2019/12/19 v3.1.5 (3.1.5)
+\pgf@shorten@end@additional=\dimen192
+\pgf@shorten@start@additional=\dimen193
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2019/12/19 v3.1.5 (3.1.5)
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count153
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2019/12/19 v3.1.5 (3.1.5)
+\pgflinewidth=\dimen194
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2019/12/19 v3.1.5 (3.1.5)
+\pgf@pt@x=\dimen195
+\pgf@pt@y=\dimen196
+\pgf@pt@temp=\dimen197
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorequick.code.tex"
+File: pgfcorequick.code.tex 2019/12/19 v3.1.5 (3.1.5)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2019/12/19 v3.1.5 (3.1.5)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2019/12/19 v3.1.5 (3.1.5)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2019/12/19 v3.1.5 (3.1.5)
+\pgfarrowsep=\dimen198
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2019/12/19 v3.1.5 (3.1.5)
+\pgf@max=\dimen199
+\pgf@sys@shading@range@num=\count154
+\pgf@shadingcount=\count155
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2019/12/19 v3.1.5 (3.1.5)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2019/12/19 v3.1.5 (3.1.5)
+\pgfexternal@startupbox=\box64
+))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2019/12/19 v3.1.5 (3.1.5)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2019/12/19 v3.1.5 (3.1.5)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2019/12/19 v3.1.5 (3.1.5)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2019/12/19 v3.1.5 (3.1.5)
+)))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
+duleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2019/12/19 v3.1.5 (3.1.5)
+\pgfnodeparttextbox=\box65
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
+duleplot.code.tex"
+File: pgfmoduleplot.code.tex 2019/12/19 v3.1.5 (3.1.5)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\p
+gfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2019/12/19 v3.1.5 (3.1.5)
+\pgf@nodesepstart=\dimen256
+\pgf@nodesepend=\dimen257
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\p
+gfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2019/12/19 v3.1.5 (3.1.5)
+))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgffo
+r.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfke
+ys.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+keys.code.tex"))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.st
+y"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
+code.tex"))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+for.code.tex"
+Package: pgffor 2019/12/19 v3.1.5 (3.1.5)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
+code.tex")
+\pgffor@iter=\dimen258
+\pgffor@skip=\dimen259
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
+/tikz\tikz.code.tex"
+Package: tikz 2019/12/19 v3.1.5 (3.1.5)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgf
+libraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2019/12/19 v3.1.5 (3.1.5)
+\pgf@plot@mark@count=\count156
+\pgfplotmarksize=\dimen260
+)
+\tikz@lastx=\dimen261
+\tikz@lasty=\dimen262
+\tikz@lastxsaved=\dimen263
+\tikz@lastysaved=\dimen264
+\tikz@lastmovetox=\dimen265
+\tikz@lastmovetoy=\dimen266
+\tikzleveldistance=\dimen267
+\tikzsiblingdistance=\dimen268
+\tikz@figbox=\box66
+\tikz@figbox@bg=\box67
+\tikz@tempbox=\box68
+\tikz@tempbox@bg=\box69
+\tikztreelevel=\count157
+\tikznumberofchildren=\count158
+\tikznumberofcurrentchild=\count159
+\tikz@fig@count=\count160
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
+dulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2019/12/19 v3.1.5 (3.1.5)
+\pgfmatrixcurrentrow=\count161
+\pgfmatrixcurrentcolumn=\count162
+\pgf@matrix@numberofcolumns=\count163
+)
+\tikz@expandcount=\count164
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2019/12/19 v3.1.5 (3.1.5)
+)))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibraryarrows.code.tex"
+File: tikzlibraryarrows.code.tex 2019/12/19 v3.1.5 (3.1.5)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgf
+libraryarrows.code.tex"
+File: pgflibraryarrows.code.tex 2019/12/19 v3.1.5 (3.1.5)
+\arrowsize=\dimen269
+))
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibrarycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2019/12/19 v3.1.5 (3.1.5)
+)
+No file Blatt08.aux.
+\openout1 = `Blatt08.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(99.58464pt, 688.5567pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=688.5567pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-10.08536pt
+* \headheight=40.80002pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=59.7508pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box70
+Package hyperref Info: Link coloring ON on input line 152.
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.st
+y"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\refcount.s
+ty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlestring\ge
+ttitlestring.sty"
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count165
+)
+LaTeX Info: Redefining \ref on input line 152.
+LaTeX Info: Redefining \pageref on input line 152.
+LaTeX Info: Redefining \nameref on input line 152.
+\@outlinefile=\write4
+\openout4 = `Blatt08.out'.
+
+Class scrartcl Info: loading recommended package `bookmark'.
+(scrartcl)           Using `bookmark' together with `hyperref' is recommended,
+(scrartcl)           because of handling of possible bookmark level gaps.
+(scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
+(scrartcl)           `bookmarkpackage=false' before \begin{document} and
+(scrartcl)           you can avoid this message adding:
+(scrartcl)             \usepackage{bookmark}
+(scrartcl)           before \begin{document} on input line 152.
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bookmark\bookmark.s
+ty"
+Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bookmark\bkm-pdftex
+.def"
+File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
+Package auxhook Info: \AddLineBeginMainAux comes a little late,
+(auxhook)             because the main .aux file is already opened on input lin
+e 168.
+\BKM@id=\count166
+))
+LaTeX Info: Redefining \microtypecontext on input line 152.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+LaTeX Info: Redefining \showhyphens on input line 152.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-cmr.cf
+g"
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
+f.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count167
+\scratchdimen=\dimen270
+\scratchbox=\box71
+\nofMPsegments=\count168
+\nofMParguments=\count169
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count170
+\MPscratchDim=\dimen271
+\MPnumerator=\count171
+\makeMPintoPDFobject=\count172
+\everyMPtoPDFconversion=\toks38
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstop
+df-base.sty"
+Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+\c@lstlisting=\count173
+ ABD: EveryShipout initializing macros
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+pdfTeX warning: pdflatex (file ./src/08_1a_Controlflow.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<src/08_1a_Controlflow.pdf, id=6, 180.675pt x 289.08pt>
+File: src/08_1a_Controlflow.pdf Graphic file (type pdf)
+<use src/08_1a_Controlflow.pdf>
+Package pdftex.def Info: src/08_1a_Controlflow.pdf  used on input line 156.
+(pdftex.def)             Requested size: 180.67455pt x 289.07928pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 158
+.
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-msa.cf
+g"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 158
+.
+ ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-msb.cf
+g"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+
+Package scrlayer-scrpage Warning: \headheight to low.
+(scrlayer-scrpage)                At least 81.60002pt needed,
+(scrlayer-scrpage)                but only 40.80002pt found.
+(scrlayer-scrpage)                I'll enlarge \headheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting geometry's option
+(scrlayer-scrpage)                `head=81.60002pt'.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
+68.
+
+
+Overfull \vbox (40.8pt too high) has occurred while \output is active []
+
+ [1{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+ <./src/08_1a_Controlflow.pdf>]
+
+pdfTeX warning: pdflatex (file ./src/08_2a_Controlflow.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<src/08_2a_Controlflow.pdf, id=28, 234.8775pt x 605.26125pt>
+File: src/08_2a_Controlflow.pdf Graphic file (type pdf)
+<use src/08_2a_Controlflow.pdf>
+Package pdftex.def Info: src/08_2a_Controlflow.pdf  used on input line 170.
+(pdftex.def)             Requested size: 234.87692pt x 605.25975pt.
+[2 <./src/08_2a_Controlflow.pdf>] [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+ (Blatt08.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+
+
+Package rerunfilecheck Warning: File `Blatt08.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Blatt08.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
+ ) 
+Here is how much of TeX's memory you used:
+ 26138 strings out of 492445
+ 523429 string characters out of 3120290
+ 757826 words of memory out of 3000000
+ 30012 multiletter control sequences out of 15000+200000
+ 11367 words of font info for 51 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 64i,20n,82p,10161b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmss10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/User/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/User/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Blatt08.pdf (3 pages, 74760 bytes).
+PDF statistics:
+ 66 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 11287 words of extra memory for PDF output out of 12000 (max. 10000000)
+
