@@ -153,8 +153,9 @@ morestring=[b]"
 		
 	\section*{Aufgabe 8.1}
 	\subsection*{a)}
-        \includegraphics[scale=1]{src/08_1a_Controlflow.pdf}
+        \includegraphics[scale=1]{src/08_1a_Controlflow.png}
 	\subsection*{b)}
+		Eine repräsentative Eingabemenge wäre \{(0,1), (1,1)\}.\\
 	    a=0, b=1 überdeckt Anweisungen $1\rightarrow 2$\\
 	    a=1, b=1 überdeckt Anweisungen $1\rightarrow 3 \rightarrow 4 \rightarrow 3 \rightarrow 5$
 	\subsection*{c)}
@@ -163,10 +164,28 @@ morestring=[b]"
 	\subsection*{d)}
 	    Da alle nicht toten Knoten über Zweige zusammenhängend sind, jeder nicht tote Knoten also mindestens von einem Zweig erreichbar ist, folgt, dass wenn alle Zweige einmal besucht werden auch jeder Knoten mindestens einmal besucht werden muss. Damit inkludiert der Zweigüberdeckungstest also praktisch den Anweisungsüberdeckungstest und ist damit mindestens genauso stark.
 	\subsection*{e)}
-	    Ein Pfadüberdeckungstest ist dann stärker, wenn es Zweige gibt, von denen aus kein Endzustand erreichbar ist. Ein Zweigüberdeckungstest würde dann diesen Fehler nicht erkennen, während der Pfadüberdeckungstest sie nach Definition erkennen könnte.
+	    Im Fall einer while-Schleife ist Pfadüberdeckungstest stärker, als ein Zweigüberdeckungstest, da es unendlich viele Fallunterscheidungen und somit unendlich viele Zweige gibt.    
+
 
     \section*{Aufgabe 8.2}
 	\subsection*{a)}
-	    \includegraphics[scale=1]{src/08_2a_Controlflow.pdf}
-	\subsection*{b)}	
+	    \includegraphics[scale=0.7]{src/08_2a_Controlflow.png}
+	\subsection*{b)}
+	\begin{enumerate}
+		\item[1.] Eingabe
+		\begin{itemize}
+			\item[] weights = (1)
+			\item[] values = (1)
+			\item[] bound = 0
+			\item[] Reigenfolge der besuchten Knoten = 01, 02
+		\end{itemize}
+		\item[2.] Eingabe
+		\begin{itemize}
+			\item[] weights = (2,1)
+			\item[] values = (1,2)
+			\item[] bound = 2
+			\item[] Reigenfolge der besuchten Knoten =  01, 03, 04, 05, 06, 07, 08, 09, 05, 06, 07, 08, 09, 05, 04, 05, 06, 11, 05 , 06, 07, 08, 10, 05, 04, 12
+		\end{itemize}
+	\end{enumerate}
+	
 \end{document}
